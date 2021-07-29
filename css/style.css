@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   color: #CC0033;
+   font-family: 'Montserrat', sans-serif;
+}
+
+.container-80 {
+    width: 80%;
+    margin: auto;
+}
+/* common  */
+.margin-20 {
+    margin: 20px;
+}
+
+.margin-left-20 {
+    margin-left: 40px;
+}
+
+.margin-top-bottom-30 {
+    margin: 30px 0;
+}
+/* header  */
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img_box {
+    max-width: 200px;
+    margin: 20px 0;
+}
+
+.img_box img {
+    width: 100%;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+}
+
+header ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #303030;
+    font-weight: 600;
+}
+
+header ul li:hover a {
+    color: #CC0033;
+}
+
+/* main  */
+p {
+    margin: 30px 0;
+}
+
+#prezzo {
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+.acquisti {
+    max-width: 100%;
+}
+
+.acquisti img {
+    width: 100%;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+}
+.info div {
+    width: calc(100% / 3);
+    margin: 20px 0;
+}
+
+.info div img {
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+/* footer  */
+footer {
+    background-color: #7E7E7E;
+}
+
+footer img {
+    margin: 20px 0;
+}
+footer ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer p {
+    font-size: 20px;
+}
