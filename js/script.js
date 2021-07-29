@@ -1,10 +1,10 @@
 // chiedo all'utente di inserire i chilometri che vuole percorrere 
-var chilometri = parseInt(prompt('Inserire il numero di chilometri da percorrere'));
+var chilometri = parseInt(prompt('Inserisci il numero di chilometri che vuoi percorrere:'));
 
 document.getElementById('chilometri').innerHTML += chilometri;
 
 // chiedo all'utente la sua età 
-var eta = parseInt(prompt('Inserire l’età'));
+var eta = parseInt(prompt('Inserisci la tua età:'));
 
 document.getElementById('eta').innerHTML += eta;
 
@@ -16,7 +16,6 @@ var prezzo = (0.21 * chilometri).toFixed(2);
 if (eta < 18) {
 prezzo = (prezzo - (prezzo * 20 / 100)).toFixed(2);
 document.getElementById('prezzo').innerHTML += prezzo;
-alert('Il prezzo del biglietto é: ' + prezzo);
 } else if (eta > 65) {
 prezzo = (prezzo - (prezzo * 40 / 100)).toFixed(2);
 document.getElementById('prezzo').innerHTML += prezzo;
