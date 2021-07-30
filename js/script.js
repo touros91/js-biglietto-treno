@@ -23,5 +23,5 @@ if (!isNaN(chilometri) && !isNaN(eta)) {
         document.getElementById('prezzo').innerHTML += prezzo;
     }
 } else {
-    alert("Non hai inserito dei valori numerici. Riprova!")
+    alert("Non hai inserito dei numeri. Riprova!");
 }
